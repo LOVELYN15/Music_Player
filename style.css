@@ -54,3 +54,14 @@ body {
 .theme3 {
     background: linear-gradient(135deg, #7f0096, #14abdc);
 }
+.music-box {
+    width: 30rem;
+    height: 30rem;
+    position: relative;
+    border-radius: 16%;
+    border: 1px solid transparent;
+    box-shadow: -10px -10px 15px #00000080, 10px 10px 15px #0000001f;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 55% 10% 10% 25%;
+}
