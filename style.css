@@ -148,3 +148,45 @@ body {
     cursor: pointer;
     transition: 0.3s;
 }  
+path {
+    transition: 0.3s;
+}
+.track-information > *:hover {
+    color: white;
+}
+umn67.track-information > *:hover path {
+    fill: white !important;
+}
+.track-information-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.track-information-texts {
+    width: 7rem;
+}
+.track-progress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    grid-column-start: span 2;
+}
+.track-progress-bar {
+    width: 65%;
+    height: 10px;
+    background: #dc143c7a;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+.track-loading {
+    width: 35px;
+    height: 100%;
+    background: #dc143c;
+    position: absolute;
+    border-radius: 4px;
+    animation: track-loading 1s ease-in-out infinite alternate;
+    left: -5px;
+    transform: scaleX(1);
+}
