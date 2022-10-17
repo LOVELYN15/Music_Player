@@ -48,3 +48,6 @@ body {
 .theme1 {
     background: #101010;
 }
+.theme2 {
+    background: linear-gradient(135deg, #dc143c, #009688);
+}
