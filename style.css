@@ -42,3 +42,6 @@ body {
 .theme:hover {
     border: 1px solid #0cb18d;
 }
+.active-theme {
+    border: 1px solid #11e2b5 !important;
+}
