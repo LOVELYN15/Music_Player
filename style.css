@@ -190,3 +190,15 @@ umn67.track-information > *:hover path {
     left: -5px;
     transform: scaleX(1);
 }
+@keyframes track-loading {
+    25% {
+        transform: scaleX(1.5);
+    }
+    75% {
+        transform: scaleX(1.5);
+    }
+    100% {
+        transform: scaleX(1);
+        left: calc(100% - 30px);
+    }
+}
