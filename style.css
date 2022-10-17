@@ -29,7 +29,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    transition: 0.3s;mn6
+    transition: 0.3s;
 }
 .theme {
     width: 3rem;
@@ -50,4 +50,7 @@ body {
 }
 .theme2 {
     background: linear-gradient(135deg, #dc143c, #009688);
+}
+.theme3 {
+    background: linear-gradient(135deg, #7f0096, #14abdc);
 }
