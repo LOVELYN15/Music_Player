@@ -29,7 +29,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    transition: 0.3s;
+    transition: 0.3s;mn6
 }
 .theme {
     width: 3rem;
@@ -44,4 +44,7 @@ body {
 }
 .active-theme {
     border: 1px solid #11e2b5 !important;
+}
+.theme1 {
+    background: #101010;
 }
