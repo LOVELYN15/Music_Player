@@ -73,3 +73,27 @@ body {
     filter: blur(10px);
     z-index: -1;
 }
+.cover-wrapper {
+    display: grid;
+    place-items: center;
+    padding: 25px;
+}
+.cover-image {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 17%;
+    cursor: pointer;
+    background: #10101075;
+}
+.cover-image-big-size {
+    position: absolute;
+    width: 28rem;
+    height: 28rem;
+    border-radius: 11%;
+    box-shadow: -10px -10px 15px #00000080, 10px 10px 15px #0000001f;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.3s;
+}
