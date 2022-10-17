@@ -39,3 +39,6 @@ body {
     cursor: pointer;
     transition: 0.3s;
 }
+.theme:hover {
+    border: 1px solid #0cb18d;
+}
